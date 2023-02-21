@@ -1,0 +1,44 @@
+body{
+    color: #8A2BE2; /* Color de letra */
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/334/225/small_2x/galaxy-fantasy-background-with-pastel-colors-free-vector.jpg'); /*fondo de la página desde internet*/
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Jua', sans-serif;
+    
+}
+
+p, li{ /* se le cambió el color al parrafo y la lista, se puede hacer por separado, un codigo para p y otro para li (para que cada uno tenga diferente color)*/
+    color: #8A2BE2;
+    font-family: 'Jua', sans-serif;
+    
+}
+ h3{ /*cambar el tamaño de letra, color, y tipo de letra eligiendo el h*/ 
+    font-size: 40px;
+    color: #cc04a1;
+    font-family: 'Lily Script One', cursive;
+ }
+
+ h1{
+    font-size: 50px;
+    color: #8B008B;
+    font-family: 'Fredoka One', cursive;
+    text-align: center; /*para centrar el texto*/
+    
+ }
+
+ img { /* tamaño de la imagen width ancho y height alto*/
+    width: 300px; /*ancho*/
+    height: 200px;  /* alto */
+    border-style:ridge ; /*tipo de marco (se pueden combinar varios tipos de marcos) */
+    border-width: 10px; /*grueso del marco*/
+    border-color: #bb08e7b2; /*color del marco*/
+    padding: 20px; /*manda al centro a la imagen (recorre de afuera hacia adentro)*/
+    margin: 20px; /*para separar las imagenes*/
+ }
+
+ div,footer{ /* se selecciona el div para cambiar especificamente ( en este caso) el color de fondo solo de una sección/ se puede agregar footer para cambiar el pie de pagina también*/
+    background-color: #d6b6f1; /* Color de fondo de la página */
+    font-family: 'Jua', sans-serif;/*fue una prueba para cambiar el tipo de letra de solo una sección*/
+    
+ }
